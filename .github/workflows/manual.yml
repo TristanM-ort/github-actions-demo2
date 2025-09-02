@@ -1,7 +1,6 @@
 name: Lancement manuel
 
-on:
-  workflow_dispatch:
+workflow_dispatch:
 
 jobs:
   manuel-job:
