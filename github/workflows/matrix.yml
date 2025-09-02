@@ -1,16 +1,16 @@
-name: OS Matrix
+# name: OS Matrix
 
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
 
-jobs:
-  test-on-multiple-os:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-    steps:
-      - name: OS et utilisateur
-        run: |
-          echo "OS: $RUNNER_OS"
-          whoami
+# jobs:
+#   test-on-multiple-os:
+#     runs-on: ${{ matrix.os }}
+#     strategy:
+#       matrix:
+#         os: [ubuntu-latest, windows-latest, macos-latest]
+#     steps:
+#       - name: OS et utilisateur
+#         run: |
+#           echo "OS: $RUNNER_OS"
+#           whoami
