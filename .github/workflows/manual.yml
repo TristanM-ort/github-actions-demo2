@@ -1,5 +1,6 @@
 name: Lancement manuel
 
+on:
 workflow_dispatch:
 
 jobs:
